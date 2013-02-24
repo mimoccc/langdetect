@@ -17,7 +17,7 @@ Maven dependency
 To install the library as a Maven dependency, first you have to add the 
 following repository to your `pom.xml` file:  
 
-   <repositories>
+    <repositories>
         ...
         <repository>
             <id>cavorite</id>
@@ -37,3 +37,12 @@ Then, include the library dependency:
         </dependency>
         ...
     </dependencies>
+    
+    
+TODO
+----
+
+* Add some micro-benchmarks to measure the running time of most common methods. 
+* Add optimizations proposed by other people:
+    * https://code.google.com/r/ionutcpaduraru-language-detection
+    * https://code.google.com/r/armintor-language-detection
